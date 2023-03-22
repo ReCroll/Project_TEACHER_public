@@ -847,7 +847,7 @@ var tag = document.createElement('script');
     });
     
     function onPlayerReady(event) {
-        let video = event.target.g;
+        let video = event.target.h;
         $(video).siblings('.to-play').addClass('removed__img');
         event.target.playVideo();
     }
